@@ -14,8 +14,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 16px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .main-content {
@@ -24,13 +24,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 75px;
-    padding-top: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 
-.text {
+.main-text {
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ body {
 }
 
 .hero-sub {
-    width: 500px;
+    width: 450px;
     padding-bottom: 16px;
 }
 
@@ -63,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 550px;
     height: 250px;
     background: gray;
     color: #E5E7EB;
@@ -72,18 +72,33 @@ body {
 
 .information {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+    gap: 48px;
 }
 
 .boxes {
     border-radius: 25px;
     border: 5px solid #3882F6;
-    padding: 20px;
-    width: 200px;
+    width: 150px;
     height: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text {
+    width: 150px;
+    text-align: center;
+    color: #6c6d6f;
+    font-size: 16px; 
 }
 
 .footer {
@@ -112,12 +127,15 @@ a {
 
 h2 {
     text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 24px;
 }
 
 button {
     border:none;
     background-color:transparent;
-    outline: none;
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 600;
